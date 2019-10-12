@@ -36,6 +36,8 @@ nav ul {
     list-style-type: none;
 }
 
+
+
 .icon{
     width: 2rem;
     height: 2rem;
@@ -79,11 +81,26 @@ nav ul {
 
 .search_bar {
     width: 35rem;
-    height: 2rem;
+    height: 3rem;
     border-radius: 2.5rem;
     border: 2px solid #DEDADA;
     margin-top: 2rem;
 }
+
+input {
+    font-family: inherit;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 46px;
+}
+
+#searchicon{
+    height: 1rem;
+    position: relative;
+    top: 3px;
+    left: 38px;
+}
+
 .botbar{
     font-size: .8rem;
     line-height: 4rem;
